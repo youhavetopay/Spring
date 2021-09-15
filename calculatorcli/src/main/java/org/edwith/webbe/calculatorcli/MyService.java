@@ -11,10 +11,7 @@ public class MyService {
     }
 	
 	public int execute(int value1, int value2) {
-		int value = 0;
-		
-		return value * 2;
-//		return calculatorService.plus(value1, value2)*2;
+		return calculatorService.plus(value1, value2)*2;
 	}
 	
 }
